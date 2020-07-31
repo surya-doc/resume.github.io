@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal portfolio</title>
+        <link rel="stylesheet" type="text/css" href="portfolio2.css" >
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+        </style>
+        <script src="https://kit.fontawesome.com/d836cf6cf8.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="nav">
+            <ul>
+                <li><img class="book1" src="book1.jpg"></li>
+                <li class="navstyle">INFO</li>
+                <li class="navstyle">ABOUT</li>
+                <li class="navstyle">STUDY</li>
+                <li class="navstyle">BIO</li>
+                <li class="navstyle">CONTACT</li>
+            </ul>
+        </div>
+
+        <div>
+            <img class="img1"src="portfolioimage1.jpg" width="300px" height="300px">
+        </div>
+
+        <div class="about">
+            <p>Surya's <span style="color:tomato; font-size: 40px;">portf<span class="span1">o</span>lio</span><br>about</p>
+        </div>
+
+        <div class="aboutme" style="overflow-x: auto;">
+            <h1>About me</h1>
+            <h5>a webdevelopper</h5>
+            <p><img class="aboutimage" src="portfolioimage1.jpg">
+                Hello my name is Surya Dana and I am a sofoftwear developper
+                I am learning sofoftwear development and trying to implement
+                a personal portfolio using CSS and HTML if you want to higher
+                me you can contact me bellow my contact number or can send a 
+                mail. 
+            </p>
+            <div class="divbutton">
+                <div class="zoom"><a href="#" class="button">contact</a></div>
+                <div class="zoom"><a href="#" class="button">gmail</a></div>
+            </div>
+        </div>
+
+        <div><h1  class="language">LEARNED LANGUAGES</h1></div>
+
+        <div class="fourimg1" style="background-color: yellow;"><span class="aboutimage1"><img src="c_image.webp" style="height: 90%;width: 90%;"></span></div>
+        <div class="fourimg1" style="background-color: yellowgreen; left: 55%;"><span class="aboutimage1"><img src="html_image.png" style="height: 100%;width: 100%;"></span></div>
+        <div class="fourimg2" style="background-color: tomato;"><span class="aboutimage1"><img src="css_image.png" style="height: 70%;width: 70%;"></span></div>
+        <div class="fourimg2" style="background-color: aquamarine; left: 55%;"><span class="aboutimage1"><img src="java_image.png" style="height: 90%;width: 90%;"></span></div>
+
+        <div class="side_bio">
+            <h1 class="head_para">My study</h1>
+            <img src="software_image.jpeg" class="round_img">
+            <p class="side_para">
+                
+                Hi this is surya and Recently I have finished my B.Tech in 	Information 
+                Technology from Moulana Abul Kalam Azad University of Technology.  In my 10th standard I got 94.1%, in 	
+                 12th I got 90.3% and in my graduation I got 8.26 CGPA. Apart from my 
+                 studies I have always 	been very much active in my school as 
+                 well as in my university. I was a very active part of the 	cultural group 
+                 of my university (“CULTURA”) and took part in organizing many cultural 	
+                 programme. And I have learned a lot from that. I learned about the team 
+                 management and 	experienced how to work as a team. I have also improved 
+                 my communication skills. And whenever I got free time I like to write blogs.
+                 I wrote bloggs on programming, internet surfing, photography and on other things.
+            </p>
+        </div>
+
+        <p style="padding: 0;float: left;top: 2200px;position: relative;margin: 0;"><a href="https://sbloggingera.blogspot.com/2020/05/a-new-vision-of-life.html" ><img src="dont-give-up-quotes.jpg" class="dont_give_up_image"></a>
+        <span class="blog_button">This is my blog. In this blog you can find a beautiful poem which was written by me. Check it out.</span>
+        </p>
+
+        <p style="padding: 0;float: left;top: 2240px;position: relative;margin: 0;"><a href="https://sbloggingera.blogspot.com/2020/05/a-new-vision-of-life.html" ><img src="book1.jpg" class="dont_give_up_image1"></a>
+            <span class="blog_button">This is my first blog. Actually it is a blog of photography. Here you can find photos of some books and nature   because those were clicked during quarentine days. Hope you like it.</span>
+        </p>
+        
+        <h1 id="certificate">CERTIFICATES</h1>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1/4</div>
+                <img src="coursera_1.png" style="width: 100%;box-shadow: 2px 2px 10px 8px black;">
+                <div class="text">certificate 1</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2/4</div>
+                <img src="coursera_2.png" style="width: 100%;box-shadow: 2px 2px 10px 8px black;">
+                <div class="text">certificate 2</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3/4</div>
+                <img src="coursera_3.png" style="width: 100%;box-shadow: 2px 2px 10px 8px black;">
+                <div class="text">certificate 3</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4/4</div>
+                <img src="coursera_4.png" style="width: 100%;box-shadow: 2px 2px 10px 8px black;">
+                <div class="text">certificate 4</div>
+            </div>
+
+            <a class="prev"  onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next"  onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+ 
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+        </script>
+
+
+
+
+
+        <div class="footer">
+            <a href="#" style="text-decoration: none;" class="footer_icon">
+                <i class="fa fa-2x fa-facebook" style="color: blue;"></i>
+            </a>
+
+            <a href="#" style="text-decoration: none;" class="footer_icon">
+                <i class="fa fa-2x fa-instagram" style="color: #C71585;"></i>
+            </a>
+
+            <a href="#" style="text-decoration: none;" class="footer_icon">
+                <i class="fa fa-2x fa-linkedin" style="color: #1E90FF;"></i>
+            </a>
+
+            <a href="#" style="text-decoration: none;" class="footer_icon">
+                <i class="fa fa-2x fa-youtube" style="color: red;"></i>
+            </a>
+        </div>
+        <br>
+        <p class="love_statement"><br>Thanks for visit with love <span class="love_sign"><i class="fas fa-2x fa-heart" style="color: red;"></i></span></p>
+    </body>
+</html>
